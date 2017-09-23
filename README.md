@@ -2,6 +2,14 @@
 
 get the japanese audio urls for a word from jisho.org
 
+## installation
+
+this isn't on `npmjs.com`, so if you want to install it you'll need to do this:
+
+```
+$ npm i -g https://github.com/chee/ja
+```
+
 ## librarial interface
 ```js
 const ja = require('ja')
