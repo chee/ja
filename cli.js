@@ -4,17 +4,18 @@ const get = require('.')
 
 const argv = require('minimist')(process.argv.slice(2))
 
-get({
-  term: argv._.join(' '),
-  reading: argv.r
-}).then(results => {
-  if (!results.length) {
-    process.exit(61)
-  }
+const term = argv._.join(' ')
+const reading = argv.r
+const jsonMode = argv.j
 
-  if (argv.j) {
+get({term, reading}).then(results => {
+  if (jsonMode) {
     return console.log(JSON.stringify(results))
   }
 
-  console.log(results.join('\n'))
+  if (results.length) {
+    return console.log(results.join('\n'))
+  }
+
+  process.exit(61)
 })
