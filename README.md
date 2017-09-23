@@ -39,13 +39,15 @@ http://d1vjc5dkcd3yh2.cloudfront.net/audio/cec22fd7beaa43340c378e17a98fb298.mp3
 http://d1vjc5dkcd3yh2.cloudfront.net/audio_ogg/cec22fd7beaa43340c378e17a98fb298.ogg
 
 # by reading
-$ ja dog -r いぬ
+$ ja 犬 -r いぬ
 http://d1vjc5dkcd3yh2.cloudfront.net/audio/10ce3f5eb7b4a9a03c4dafce2af60e28.mp3
 http://d1vjc5dkcd3yh2.cloudfront.net/audio_ogg/10ce3f5eb7b4a9a03c4dafce2af60e28.ogg
 
 # by filetype
-$ ja 犬 | grep [.]ogg$
+$ ja dog | grep [.]ogg$
 http://d1vjc5dkcd3yh2.cloudfront.net/audio_ogg/10ce3f5eb7b4a9a03c4dafce2af60e28.ogg
+http://d1vjc5dkcd3yh2.cloudfront.net/audio_ogg/45bac2d853cf192d099f3f0fddfdba31.ogg
+http://d1vjc5dkcd3yh2.cloudfront.net/audio_ogg/cec22fd7beaa43340c378e17a98fb298.ogg
 
 # as json (for piping to jq/jshon)
 $ ja inu -r いぬ -j
