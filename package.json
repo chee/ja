@@ -1,7 +1,7 @@
 {
   "name": "ja",
   "version": "1.0.0",
-  "description": "command line tool (and lib) for getting japanese pronunciation audio urls",
+  "description": "get japanese pronunciation audio urls",
   "main": "index.js",
   "bin": {
     "ja": "cli.js"
