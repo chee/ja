@@ -1,0 +1,18 @@
+{
+  "name": "get-japanese-audio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ja": "cli.js"
+  },
+  "scripts": {
+    "test": "echo help"
+  },
+  "author": "chee <chee@snake.dog>",
+  "license": "GPL-3.0+",
+  "dependencies": {
+    "jishon": "0.0.6",
+    "minimist": "^1.2.0"
+  }
+}
