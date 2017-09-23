@@ -1,7 +1,7 @@
 {
   "name": "get-japanese-audio",
   "version": "1.0.0",
-  "description": "",
+  "description": "tool and library for getting japanese pronunciation audio urls",
   "main": "index.js",
   "bin": {
     "ja": "cli.js"
