@@ -1,5 +1,5 @@
 {
-  "name": "get-japanese-audio",
+  "name": "ja",
   "version": "1.0.0",
   "description": "tool and library for getting japanese pronunciation audio urls",
   "main": "index.js",
@@ -11,6 +11,7 @@
   },
   "author": "chee <chee@snake.dog>",
   "license": "GPL-3.0+",
+  "repository": "https://github.com/chee/ja",
   "dependencies": {
     "jishon": "0.0.6",
     "minimist": "^1.2.0"
