@@ -1,10 +1,10 @@
-# get-japanese-audio
+# ja
 
 get the japanese audio urls for a word from jisho.org
 
 ## librarial interface
 ```js
-const ja = require('get-japanese-audio')
+const ja = require('ja')
 
 ja({
   term: '犬',
